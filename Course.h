@@ -6,15 +6,16 @@
 class Course
 {
 public:
-	Course()
-	{
-	}
+	Course(std::string courseName);
 
-	~Course()
-	{
-	}
+	~Course();
+	
+	std::string CourseName;
+
+	Student Students[3];
+	Teacher Teacher[1];
 
 private:
-	Student _Students[3];
-	Teacher _Teacher[1];
+	/*Student Students[3];
+	Teacher Teacher[1];*/
 };

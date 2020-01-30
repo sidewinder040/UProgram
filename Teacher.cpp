@@ -1,6 +1,10 @@
 #include "Teacher.h"
 #include <iostream>
 
+Teacher::Teacher()
+{
+}
+
 Teacher::Teacher(std::string firstName, std::string lastName, std::string address, std::string city, std::string phone)
 {
 	this->FirstName = firstName;

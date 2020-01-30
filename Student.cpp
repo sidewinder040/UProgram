@@ -1,6 +1,10 @@
 #include "Student.h"
 #include <iostream>
 
+Student::Student()
+{
+}
+
 Student::Student(std::string firstName, std::string lastName, std::string address, std::string city, std::string phone)
 {
 	this->FirstName = firstName;

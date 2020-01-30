@@ -5,6 +5,8 @@
 class Teacher
 {
 public:
+	Teacher();
+
 	Teacher(std::string firstName,
 		std::string lastName,
 		std::string address,
